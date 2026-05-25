@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Estudiante de Informática & Fitness Enthusiast</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Fuentes de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para iconos (opcional, puedes reemplazar con SVG) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ==================== HEADER / NAVEGACIÓN ==================== -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">DramPar</span>
+            </div>
+            
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                    <li><a href="#estudios" class="nav-link">Estudios</a></li>
+                    <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Botón hamburguesa para móvil -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== SECCIÓN HERO ==================== -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Hola, soy <span class="gradient-text">estudiante de Informática</span> & <span class="accent-text">Entusiasta del Fitness</span>
+            </h1>
+            <p class="hero-subtitle">Combinando pasión por la tecnología, el ejercicio y la superación personal.</p>
+            <a href="#sobre-mi" class="btn btn-primary">Conóceme más</a>
+        </div>
+        
+        <!-- Decorativo: Fondo animado -->
+        <div class="hero-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+    </section>
+
+    <!-- ==================== SECCIÓN: SOBRE MÍ ==================== -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <p class="section-subtitle">Mentalidad, Pasión y Disciplina</p>
+            
+            <div class="about-grid">
+                <!-- Card 1: Disciplina General -->
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Disciplina & Superación</h3>
+                    <p>Me considero una persona disciplinada y enfocada en mejorar cada día. Una de las cosas que más me gusta es ir al gimnasio, ya que entrenar me ayuda a sentirme mejor física y mentalmente.</p>
+                </div>
+                
+                <!-- Card 2: Fitness / David Laid -->
+                <div class="about-card">
+                    <div class="card-icon inspiration">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Mi Inspiración Fitness</h3>
+                    <p>Mi influencer fitness favorito es <strong>David Laid</strong>, porque me inspira su dedicación, constancia y el cambio que logró con esfuerzo. Su historia me motiva a seguir trabajando en mí mismo.</p>
+                </div>
+                
+                <!-- Card 3: Anime / Berserk -->
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Anime & Filosofía</h3>
+                    <p>Me gusta mucho el anime, especialmente <strong>Berserk</strong>, porque tiene una historia intensa, personajes muy interesantes y un gran mensaje sobre la lucha y la superación personal.</p>
+                </div>
+                
+                <!-- Card 4: Mentalidad -->
+                <div class="about-card">
+                    <div class="card-icon tech">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Mentalidad & Crecimiento</h3>
+                    <p>Me identifico con la idea de nunca rendirse y seguir adelante aunque existan dificultades. Disfruto combinar mis gustos por el ejercicio, la tecnología y el entretenimiento, buscando siempre aprender cosas nuevas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECCIÓN: FORMACIÓN ACADÉMICA ==================== -->
+    <section id="estudios" class="education">
+        <div class="container">
+            <h2 class="section-title">Mi Universidad & Formación</h2>
+            <p class="section-subtitle">Enfoque Tecnológico - UAQ</p>
+            
+            <div class="education-content">
+                <!-- Columna Izquierda: Logo y Datos Generales -->
+                <div class="education-visual">
+                    <!-- IMPORTANTE: Reemplaza 'logo-placeholder.png' con el logo real de la UAQ -->
+                    <div class="university-logo">
+                        <img src="assets/images/logo-uaq.png" alt="Logo Universidad Autónoma de Querétaro" onerror="this.src='assets/images/placeholder-logo.png'">
+                    </div>
+                    <div class="university-info">
+                        <h3>Universidad Autónoma de Querétaro</h3>
+                        <p class="faculty">Facultad de Informática</p>
+                        <ul class="study-list">
+                            <li>📚 Programación</li>
+                            <li>🌐 Redes y Telecomunicaciones</li>
+                            <li>💾 Bases de Datos</li>
+                            <li>⚙️ Desarrollo de Software</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Columna Derecha: Descripción Detallada -->
+                <div class="education-text">
+                    <p>
+                        Soy estudiante de la <strong>Universidad Autónoma de Querétaro</strong> en la <strong>Facultad de Informática UAQ</strong>. 
+                        Me gusta aprender sobre tecnología, programación y computadoras, ya que son áreas que tienen mucha importancia hoy en día.
+                    </p>
+                    
+                    <p>
+                        En la facultad he aprendido cosas sobre redes, bases de datos, desarrollo de programas y solución de problemas usando la informática. 
+                        La Facultad de Informática de la UAQ es un lugar donde los estudiantes pueden aprender tanto teoría como práctica.
+                    </p>
+                    
+                    <p>
+                        Los maestros ayudan a que podamos desarrollar nuestras habilidades y prepararnos para el mundo laboral. 
+                        Además, se fomenta el trabajo en equipo y el uso responsable de la tecnología.
+                    </p>
+                    
+                    <p>
+                        Estudiar en la UAQ me ayuda a crecer como persona y como futuro profesionista, 
+                        preparándome para enfrentar nuevos retos y seguir aprendiendo cada día.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECCIÓN: PROYECTOS DESTACADOS ==================== -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <p class="section-subtitle">Cálculo e Informática - Trabajos Académicos</p>
+            
+            <div class="projects-grid">
+                <!-- Card Proyecto 1: Cálculo -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3 class="project-title">Proyecto Cálculo</h3>
+                    </div>
+                    
+                    <div class="project-body">
+                        <p class="project-description">
+                            Hoja de cálculo interactiva con funciones matemáticas avanzadas, gráficas dinámicas y análisis de datos. 
+                            Incluye herramientas de cálculo para resolución de problemas académicos.
+                        </p>
+                    </div>
+                    
+                    <div class="project-footer">
+                        <!-- IMPORTANTE: Reemplaza '#' con la ruta del archivo real cuando esté disponible -->
+                        <!-- Formato esperado: assets/files/Proyecto_Cálculo_v1.xlsb.xlsx -->
+                        <a href="#" class="btn btn-secondary" download>
+                            <i class="fas fa-download"></i>
+                            Proyecto Cálculo (version 1).xlsb.xlsx
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Card Proyecto 2: Sistema de Base de Datos -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="project-title">Sistema de Base de Datos</h3>
+                    </div>
+                    
+                    <div class="project-body">
+                        <p class="project-description">
+                            Diseño e implementación de una base de datos relacional con múltiples tablas, 
+                            consultas SQL optimizadas y documentación técnica completa.
+                        </p>
+                    </div>
+                    
+                    <div class="project-footer">
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-code"></i>
+                            Ver Detalles
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Card Proyecto 3: Aplicación Web -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="project-title">Aplicación Web</h3>
+                    </div>
+                    
+                    <div class="project-body">
+                        <p class="project-description">
+                            Desarrollo de una aplicación web responsiva usando HTML, CSS y JavaScript. 
+                            Incluye interfaz moderna, funcionalidades interactivas y buenas prácticas de UX.
+                        </p>
+                    </div>
+                    
+                    <div class="project-footer">
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-globe"></i>
+                            Visitar Proyecto
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Card Proyecto 4: Redes y Telecomunicaciones -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3 class="project-title">Análisis de Redes</h3>
+                    </div>
+                    
+                    <div class="project-body">
+                        <p class="project-description">
+                            Estudio y configuración de redes, protocolos TCP/IP, enrutamiento y seguridad. 
+                            Incluye simulaciones prácticas y documentación detallada.
+                        </p>
+                    </div>
+                    
+                    <div class="project-footer">
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-file-pdf"></i>
+                            Descargar Informe
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECCIÓN: CONTACTO ==================== -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">Conéctate conmigo</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Tienes preguntas o propuestas?</h3>
+                    <p>Me encantaría conocer tus ideas y colaborar en proyectos interesantes. No dudes en ponerte en contacto.</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:tuemail@example.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>correo@ejemplo.com</span>
+                        </a>
+                        <a href="tel:+5212345678" class="contact-link">
+                            <i class="fas fa-phone"></i>
+                            <span>+52 (XXX) XXX-XXXX</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Redes Sociales -->
+                <div class="social-links">
+                    <h3>Sígueme en redes sociales</h3>
+                    <div class="social-icons">
+                        <!-- GitHub -->
+                        <a href="https://github.com/drampar7-cell" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        
+                        <!-- LinkedIn -->
+                        <a href="https://linkedin.com/in/tuusuario" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        
+                        <!-- Instagram -->
+                        <a href="https://instagram.com/tuusuario" target="_blank" class="social-icon" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/tuusuario" target="_blank" class="social-icon" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2026 - Mi Blog Personal. Creado con pasión por la tecnología y la superación.
+            </p>
+            <div class="footer-socials">
+                <a href="https://github.com/drampar7-cell" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/tuusuario" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/tuusuario" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="script.js"></script>
+</body>
+</html>
